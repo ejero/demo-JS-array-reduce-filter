@@ -83,22 +83,26 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D; 
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+p{
+  font-size: 24px;
+  text-align:left;
+  margin: auto;
+  padding: 7px;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
